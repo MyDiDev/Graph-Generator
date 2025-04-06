@@ -33,7 +33,7 @@ env/scripts/activate
 - MacOs / Linux
 
 ```bash
-env/bin/activate
+source env/bin/activate
 ```
 
 - Instalar Paquetes
