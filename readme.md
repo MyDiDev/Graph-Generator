@@ -52,30 +52,18 @@ python3 file.py
 
 ### Funciones
 
-- **`1 - Line`**:
+1. **Gráfico de líneas (`Line`)**: Muestra los datos en una secuencia continua, ideal para representar tendencias a lo largo del tiempo.
 
-  - Lee el archivo desde el directorio dado (`.csv`, `.xlsx`, `.json`) y genera un gráfico de líneas por defecto.
-  - El archivo debe contener datos numéricos adecuados para la creación de gráficos.
+2. **Gráfico de barras (`Bar`)**: Representa valores discretos mediante barras verticales, útil para comparar categorías o grupos.
 
-- **`2 - bar`**:
+3. **Gráfico de barras horizontales (`Barh`)**: Similar al gráfico de barras, pero con barras horizontales, útil cuando las etiquetas de las categorías son largas.
 
-  - Genera un gráfico de barras a partir de los datos proporcionados en el archivo.
+4. **Gráfico de dispersión (`Hist`)**: Muestra la relación entre dos variables numéricas como puntos individuales en un plano cartesiano.
 
-- **`3 - Barh`**:
+5. **Gráfico de caja (`Box`)**: Muestra la distribución de los datos, incluyendo la mediana, los cuartiles y los valores atípicos.
 
-  - Genera un gráfico de líneas a partir de los datos proporcionados en el archivo.
-
-- **`4 - Hist`**:
-
-  - Genera un gráfico de dispersión utilizando los datos numéricos del archivo.
-
-- **`5 - Box`**:
-
-  - Genera un gráfico de dispersión utilizando los datos numéricos del archivo.
-
-- **`6 - Area`**:
-  - Genera un gráfico de dispersión utilizando los datos numéricos del archivo.
-
+6. **Gráfico de área (`Area`)**: Similar a un gráfico de líneas, pero con el área debajo de la línea sombreada, ideal para mostrar el volumen o la magnitud acumulada a lo largo del tiempo.
+   
 ### Ejemplo de uso
 
 ![Image](https://github.com/user-attachments/assets/8d4a76bd-100b-44e6-b5b6-5de1d2f3e3f8)
